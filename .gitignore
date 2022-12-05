@@ -1,5 +1,4 @@
 node_modules
 .env
 photos
-package-lock.json
 .DS_Store
