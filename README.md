@@ -4,6 +4,12 @@
 
 This is a backend for an e-commerce site. It uses the latest technologies so that the site can scale up to handle large amounts of data.
 
+## Technologies
+
+- Express.js
+- MongoDB
+- Node.js
+
 ## Table of Contents
 
 ## Installation

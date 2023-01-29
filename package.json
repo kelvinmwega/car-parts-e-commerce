@@ -1,13 +1,26 @@
 {
-  "name": "car-parts-ecommerce",
+  "name": "car-parts-e-commerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "Car Parts E-Commerce Backend API",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "cors",
+    "dotenv",
+    "formidable",
+    "lodash",
+    "uuid",
+    "express-validator",
+    "express-jwt"
+  ],
+  "author": "kmwega@thrivy.co.ke",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.1",
