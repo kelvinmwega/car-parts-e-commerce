@@ -19,7 +19,8 @@ const app = express();
 // db
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => console.log('DB Connected', new Date().toISOString()));
+  .then(() => console.log('DB Connected', new Date().toISOString()))
+  .catch(err => console.log('DB Connection Error', err));
 
 // middleware
 app.use(morgan('dev'));
